@@ -31,6 +31,14 @@
         {
             "route": "/index",
             "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/",
+            "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/*",
+            "allowedRoles": ["anonymous"]
         }
     ],
     "responseOverrides": {
