@@ -10,7 +10,6 @@
         }
         }
     },
-    "trailingSlash": "auto",
     "routes":[
         {
             "route": "/.auth/login/aad/callback",
