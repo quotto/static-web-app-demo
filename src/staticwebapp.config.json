@@ -22,7 +22,7 @@
         },
         {
             "route": "/.auth/login/aad/callback",
-            "redirect": "/"
+            "redirect": "/index.html"
         },
         {
             "route": "/index.html",
@@ -30,10 +30,6 @@
         },
         {
             "route": "/index",
-            "allowedRoles": ["authenticated"]
-        },
-        {
-            "route": "/",
             "allowedRoles": ["authenticated"]
         }
     ],
