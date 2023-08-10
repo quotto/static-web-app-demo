@@ -35,9 +35,6 @@
         "redirect": "/login"
         }
     },
-    "navigationFallback": {
-        "rewrite": "/login"
-    },
     "globalHeaders": {
         "Access-Control-Allow-Methods": "GET"
     }
