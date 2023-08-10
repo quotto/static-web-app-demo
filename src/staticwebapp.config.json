@@ -16,15 +16,11 @@
             "redirect": "/index.html"
         },
         {
-            "route": "/index.html",
-            "allowedRoles": ["authenticated"]
+            "route": "/login.html",
+            "allowedRoles": ["anonymous"]
         },
         {
-            "route": "/index",
-            "allowedRoles": ["authenticated"]
-        },
-        {
-            "route": "/",
+            "route": "/*",
             "allowedRoles": ["authenticated"]
         }
     ],
