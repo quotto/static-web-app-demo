@@ -25,6 +25,14 @@
             "redirect": "/"
         },
         {
+            "route": "/.auth/logout/aad/callback",
+            "redirect": "/login.html"
+        },
+        {
+            "route": "/login.html",
+            "allowedRoles": ["anonymous"]
+        },
+        {
             "route": "/*",
             "allowedRoles": ["authenticated"]
         }
