@@ -22,15 +22,11 @@
         },
         {
             "route": "/login",
-            "redirect": "/login.html"
+            "redirect": "/.auth/login/aad"
         },
         {
             "route": "/.auth/login/aad/callback",
             "redirect": "/"
-        },
-        {
-            "route": "/.auth/logout/aad/callback",
-            "redirect": "/login"
         }
     ],
     "responseOverrides": {
@@ -40,7 +36,7 @@
         }
     },
     "navigationFallback": {
-        "rewrite": "/login.html"
+        "rewrite": "/login"
     },
     "globalHeaders": {
         "Access-Control-Allow-Methods": "GET"
