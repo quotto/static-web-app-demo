@@ -27,6 +27,14 @@
         {
             "route": "/index.html",
             "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/index",
+            "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/",
+            "allowedRoles": ["authenticated"]
         }
     ],
     "responseOverrides": {
