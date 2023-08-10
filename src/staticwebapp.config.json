@@ -13,14 +13,6 @@
     "trailingSlash": "auto",
     "routes":[
         {
-            "route": "/logout",
-            "redirect": "/.auth/logout"
-        },
-        {
-            "route": "/login",
-            "redirect": "/.auth/login/aad"
-        },
-        {
             "route": "/.auth/login/aad/callback",
             "redirect": "/index.html"
         },
@@ -44,7 +36,7 @@
     "responseOverrides": {
         "401": {
         "statusCode": 302,
-        "redirect": "/login"
+        "redirect": "/.auth/login/aad"
         }
     }
 }
