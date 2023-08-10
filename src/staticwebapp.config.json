@@ -26,7 +26,7 @@
         },
         {
             "route": "/.auth/login/aad/callback",
-            "redirect": "/"
+            "redirect": "/index.html"
         }
     ],
     "responseOverrides": {
