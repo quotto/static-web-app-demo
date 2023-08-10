@@ -2,8 +2,12 @@
     "trailingSlash": "auto",
     "routes":[
         {
-            "route": "/*",
+            "route": "/index.html",
             "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/logout",
+            "redirect": "/.auth/logout"
         }
     ],
     "responseOverrides": {
