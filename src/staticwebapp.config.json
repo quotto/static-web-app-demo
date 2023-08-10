@@ -22,7 +22,7 @@
         },
         {
             "route": "/.auth/login/aad/callback",
-            "redirect": "/index.html"
+            "redirect": "/"
         },
         {
             "route": "/*",
