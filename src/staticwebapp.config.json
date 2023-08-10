@@ -13,10 +13,6 @@
     "trailingSlash": "auto",
     "routes":[
         {
-            "route": "/index.html",
-            "allowedRoles": ["authenticated"]
-        },
-        {
             "route": "/logout",
             "redirect": "/.auth/logout"
         },
@@ -27,6 +23,10 @@
         {
             "route": "/.auth/login/aad/callback",
             "redirect": "/index.html"
+        },
+        {
+            "route": "/*",
+            "allowedRoles": ["authenticated"]
         }
     ],
     "responseOverrides": {
@@ -34,8 +34,5 @@
         "statusCode": 302,
         "redirect": "/login"
         }
-    },
-    "globalHeaders": {
-        "Access-Control-Allow-Methods": "GET"
     }
 }
