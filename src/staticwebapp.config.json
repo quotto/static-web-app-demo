@@ -17,7 +17,7 @@
         }
     },
     "navigationFallback": {
-        "rewrite": "/index.html"
+        "rewrite": "/login.html"
     },
     "globalHeaders": {
         "Access-Control-Allow-Methods": "GET"
