@@ -29,11 +29,7 @@
             "redirect": "/login.html"
         },
         {
-            "route": "/login.html",
-            "allowedRoles": ["anonymous"]
-        },
-        {
-            "route": "/*",
+            "route": "/index.html",
             "allowedRoles": ["authenticated"]
         }
     ],
